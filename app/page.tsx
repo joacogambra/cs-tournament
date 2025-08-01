@@ -65,7 +65,7 @@ export default function TournamentLanding() {
                   variant="outline"
                   className="border-white text-white hover:bg-white hover:text-gray-900 transition-colors bg-transparent"
                 >
-                  Participar
+                  <a href="https://www.faceit.com/es/championship/cb96be22-8671-43f8-96bc-02a18187c8e8/Copa%2520Movistar%2520Fibra" target="_blank">Participar</a>
                 </Button>
               </div>
             </div>
@@ -136,15 +136,14 @@ export default function TournamentLanding() {
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">Copa Movistar Fibra</h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
-            ¡Competí en el Torneo de 9z, Globant y Movistar de CS2 y ganá hasta 2000 USD en hardware, entradas para
-            Duki, un monitor y más!
+            ¡Competí en el Torneo de 9z Globant y Movistar de CS2 y competí por cinco Nubia Neo 3 y una moto de Hero!
           </p>
           <Button
             size="lg"
             variant="outline"
             className="border-white text-white hover:bg-white hover:text-gray-900 transition-colors text-lg px-8 py-4 bg-transparent"
           >
-            Quiero jugar
+            <a href="https://www.faceit.com/es/championship/cb96be22-8671-43f8-96bc-02a18187c8e8/Copa%2520Movistar%2520Fibra" target="_blank">Quiero jugar</a>
           </Button>
         </div>
       </section>
@@ -180,20 +179,19 @@ export default function TournamentLanding() {
             <div className="bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-700">
               <h3 className="text-2xl font-bold mb-4 text-blue-400">Open Qualy</h3>
               <p className="text-gray-300">
-                Clasificatorias abiertas para todos los jugadores. Inscribite y demostrá tu nivel en partidas
-                eliminatorias.
+                Clasificatorias abiertas para todos los jugadores los días 23 y 24 de Agosto
               </p>
             </div>
             <div className="bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-700">
               <h3 className="text-2xl font-bold mb-4 text-green-400">Closed Qualy</h3>
               <p className="text-gray-300">
-                Los mejores equipos de la fase anterior compiten por un lugar en la gran final presencial.
+                Los mejores equipos de la fase anterior compiten por un lugar en la gran final presencial los días 30 y 31 de Agosto
               </p>
             </div>
             <div className="bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-700">
               <h3 className="text-2xl font-bold mb-4 text-yellow-400">Final Presencial</h3>
               <p className="text-gray-300">
-                La gran final donde los mejores equipos se enfrentan cara a cara por los premios principales.
+                La gran final el día 4 de Septiembre donde los mejores equipos se enfrentan cara a cara por los premios principales.
               </p>
             </div>
           </div>
@@ -210,50 +208,35 @@ export default function TournamentLanding() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">Premios</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gray-900/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-600">
               <div className="mb-6">
                 <Image
-                  src="/placeholder.svg?height=200&width=200&text=Hardware"
-                  alt="Hardware Prize"
-                  width={200}
-                  height={200}
-                  className="mx-auto rounded-lg"
-                />
-              </div>
-              <h3 className="text-2xl font-bold mb-4 text-blue-400">Hardware por USD 2000</h3>
-              <p className="text-gray-300">
-                El equipo ganador se lleva hardware gaming de última generación valorado en 2000 dólares.
-              </p>
-            </div>
-            <div className="bg-gray-900/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-600">
-              <div className="mb-6">
-                <Image
-                  src="/placeholder.svg?height=200&width=200&text=Duki+Tickets"
+                  src="/images/neo3.png"
                   alt="Duki Concert Tickets"
                   width={200}
                   height={200}
                   className="mx-auto rounded-lg"
                 />
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-green-400">Entradas para Duki</h3>
+              <h3 className="text-2xl font-bold mb-4 text-green-400">Cinco Nubia Neo 3</h3>
               <p className="text-gray-300">
-                Entradas VIP para el próximo concierto de Duki para todo el equipo subcampeón.
+                5 celulares Nubia Neo 3
               </p>
             </div>
             <div className="bg-gray-900/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-600">
               <div className="mb-6">
                 <Image
-                  src="/placeholder.svg?height=200&width=200&text=Gaming+Monitor"
+                  src="/images/hunk.png"
                   alt="Gaming Monitor"
                   width={200}
                   height={200}
                   className="mx-auto rounded-lg"
                 />
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-yellow-400">Monitor gamer</h3>
+              <h3 className="text-2xl font-bold mb-4 text-yellow-400">Carry On</h3>
               <p className="text-gray-300">
-                Monitor gaming de alta frecuencia para el MVP del torneo y otros premios especiales.
+                Una HUNK 160R STEALTH 45 y cinco Carry On
               </p>
             </div>
           </div>
@@ -279,8 +262,8 @@ export default function TournamentLanding() {
                 ¿Quiénes pueden participar?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                Pueden participar todos los jugadores mayores de 16 años residentes en Argentina. Se requiere tener una
-                cuenta de Steam activa y CS2 instalado.
+                Pueden participar todos los jugadores NO profesionales mayores de 16 años residentes en Argentina. Se requiere tener una
+                cuenta de Faceit y CS2 instalado.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem
@@ -303,7 +286,7 @@ export default function TournamentLanding() {
                 ¿Cómo me inscribo?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                La inscripción se realiza a través de nuestra plataforma oficial. Necesitás formar un equipo de 5
+                La inscripción se realiza a través de FACEIT. Necesitás formar un equipo de 5
                 jugadores y completar el formulario de registro con los datos de todos los integrantes.
               </AccordionContent>
             </AccordionItem>
@@ -315,7 +298,7 @@ export default function TournamentLanding() {
                 ¿Qué necesito para jugar?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                Necesitás CS2 instalado, una conexión estable a internet, micrófono para comunicarte con tu equipo y
+                Necesitás CS2 y Faceit instalado, una conexión estable a internet, micrófono para comunicarte con tu equipo y
                 estar disponible en los horarios de las partidas programadas.
               </AccordionContent>
             </AccordionItem>
@@ -327,7 +310,7 @@ export default function TournamentLanding() {
                 ¿Cuántos jugadores por equipo?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                Cada equipo debe estar compuesto por exactamente 5 jugadores titulares. Se permite tener hasta 2
+                Cada equipo debe estar compuesto por exactamente 5 jugadores titulares. Se permite tener hasta 3
                 suplentes registrados por equipo.
               </AccordionContent>
             </AccordionItem>
@@ -345,9 +328,9 @@ export default function TournamentLanding() {
             <Image
               src="/images/movistar-footer-logo.png"
               alt="Movistar Logo"
-              width={200}
-              height={80}
-              className="h-16 w-auto opacity-80 hover:opacity-100 transition-opacity"
+              width={800}
+              height={120}
+              className="h-20 w-auto opacity-80 hover:opacity-100 transition-opacity"
             />
             <Image
               src="/images/globant-logo.png"
@@ -357,15 +340,15 @@ export default function TournamentLanding() {
               className="h-16 w-auto opacity-80 hover:opacity-100 transition-opacity"
             />
             <Image
-              src="/images/9z-logo.png"
+              src="/images/nubia.png"
               alt="9z Team Logo"
-              width={200}
+              width={120}
               height={80}
-              className="h-16 w-auto opacity-80 hover:opacity-100 transition-opacity col-span-2 md:col-span-1"
+              className="h-12 w-auto opacity-80 hover:opacity-100 transition-opacity col-span-2 md:col-span-1"
             />
           </div>
           <div className="text-center mt-8 pt-8 border-t border-gray-800">
-            <p className="text-gray-400">© 2024 Copa Movistar Fibra. Todos los derechos reservados.</p>
+            <p className="text-gray-400">© 2025 Copa Movistar Fibra. Todos los derechos reservados.</p>
           </div>
         </div>
       </footer>
