@@ -124,7 +124,7 @@ export default function TournamentLanding() {
       <section className="relative h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero-bg.jpg"
+            src="/images/haro-bg.png"
             alt="Esports Tournament Gaming Setup"
             fill
             className="object-cover"
@@ -234,9 +234,9 @@ export default function TournamentLanding() {
                   className="mx-auto rounded-lg"
                 />
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-yellow-400">Carry On</h3>
+              <h3 className="text-2xl font-bold mb-4 text-yellow-400">Moto Hero</h3>
               <p className="text-gray-300">
-                Una HUNK 160R STEALTH 45 y cinco Carry On
+                Una HUNK 160R STEALTH 45
               </p>
             </div>
           </div>
