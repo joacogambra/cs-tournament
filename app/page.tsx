@@ -199,7 +199,7 @@ export default function TournamentLanding() {
       </section>
 
       {/* Prizes Section */}
-      <section id="prizes" className="relative h-screen flex items-center justify-center bg-gray-800 overflow-hidden">
+      <section id="prizes" className="relative min-h-screen flex items-center justify-center bg-gray-800 overflow-hidden">
         {/* Background Image - Left Side */}
         <div className="absolute left-0 top-0 w-1/2 h-full">
           <Image src="/images/prizes-bg.jpg" alt="CS2 Tournament Teams" fill className="object-cover" />
