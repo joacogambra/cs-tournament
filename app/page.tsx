@@ -283,11 +283,12 @@ export default function TournamentLanding() {
               className="border-gray-700 bg-gray-800/90 backdrop-blur-sm rounded-lg mb-4 px-6"
             >
               <AccordionTrigger className="text-left text-lg font-semibold hover:text-blue-400">
-                ¿Cómo me inscribo?
+                ¿Cómo me inscribo?¿Cuanto tiempo hay para inscribirse?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
                 La inscripción se realiza a través de FACEIT. Necesitás formar un equipo de 5
                 jugadores y completar el formulario de registro con los datos de todos los integrantes.
+                Las inscripciones comienzan el 4 de Agosto 10AM hasta el 18 de Agosto.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem
