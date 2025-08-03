@@ -219,7 +219,7 @@ export default function TournamentLanding() {
                   className="mx-auto rounded-lg"
                 />
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-green-400">Cinco Nubia Neo 3</h3>
+              <h3 className="text-2xl font-bold mb-4 text-green-400">Nubia Neo 3</h3>
               <p className="text-gray-300">
                 5 celulares Nubia Neo 3
               </p>
@@ -262,7 +262,7 @@ export default function TournamentLanding() {
                 ¿Quiénes pueden participar?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                Pueden participar todos los jugadores NO profesionales mayores de 16 años residentes en Argentina. Se requiere tener una
+                Pueden participar todos los jugadores NO profesionales mayores de 18 años residentes en Argentina. Se requiere tener una
                 cuenta de Faceit y CS2 instalado.
               </AccordionContent>
             </AccordionItem>
@@ -314,6 +314,17 @@ export default function TournamentLanding() {
                 suplentes registrados por equipo.
               </AccordionContent>
             </AccordionItem>
+            <AccordionItem
+              value="item-1"
+              className="border-gray-700 bg-gray-800/90 backdrop-blur-sm rounded-lg mb-4 px-6"
+            >
+              <AccordionTrigger className="text-left text-lg font-semibold hover:text-blue-400">
+                ¿Me puedo anotar solo?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-300 text-base">
+                Podes buscar compañeros o un team incompleto desde FACEIT o en el chat <a href="https://discord.gg/UbtP3taKbh">de Discord de 9z</a>.
+              </AccordionContent>
+            </AccordionItem>
           </Accordion>
         </div>
       </section>
@@ -325,6 +336,7 @@ export default function TournamentLanding() {
             <h3 className="text-2xl font-bold mb-6">Sponsors Oficiales</h3>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center">
+            <a href="www.movistar.com.ar" target="_blank" rel="noopener noreferrer">
             <Image
               src="/images/movistar-footer-logo.png"
               alt="Movistar Logo"
@@ -332,6 +344,7 @@ export default function TournamentLanding() {
               height={120}
               className="h-20 w-auto opacity-80 hover:opacity-100 transition-opacity"
             />
+            </a>
             <Image
               src="/images/globant-logo.png"
               alt="Globant Logo"
@@ -339,6 +352,7 @@ export default function TournamentLanding() {
               height={80}
               className="h-16 w-auto opacity-80 hover:opacity-100 transition-opacity"
             />
+            <a href="https://www.nubia.com/ar/products/smartphones/nubia/nubia-neo-3-5g.html" target="_blank" rel="noopener noreferrer">
             <Image
               src="/images/nubia.png"
               alt="9z Team Logo"
@@ -346,9 +360,11 @@ export default function TournamentLanding() {
               height={80}
               className="h-12 w-auto opacity-80 hover:opacity-100 transition-opacity col-span-2 md:col-span-1"
             />
+            </a>
           </div>
           <div className="text-center mt-8 pt-8 border-t border-gray-800">
             <p className="text-gray-400">© 2025 Copa Movistar Fibra. Todos los derechos reservados.</p>
+            <a href="https://discord.gg/UbtP3taKbh">Terminos y condiciones</a>
           </div>
         </div>
       </footer>
