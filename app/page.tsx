@@ -124,7 +124,7 @@ export default function TournamentLanding() {
       <section className="relative h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/haro-bg.png"
+            src="/images/haro-gb.png"
             alt="Esports Tournament Gaming Setup"
             fill
             className="object-cover"
@@ -315,7 +315,7 @@ export default function TournamentLanding() {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem
-              value="item-1"
+              value="item-6"
               className="border-gray-700 bg-gray-800/90 backdrop-blur-sm rounded-lg mb-4 px-6"
             >
               <AccordionTrigger className="text-left text-lg font-semibold hover:text-blue-400">
@@ -340,7 +340,7 @@ export default function TournamentLanding() {
             <Image
               src="/images/movistar-footer-logo.png"
               alt="Movistar Logo"
-              width={800}
+              width={900}
               height={120}
               className="h-20 w-auto opacity-80 hover:opacity-100 transition-opacity"
             />
