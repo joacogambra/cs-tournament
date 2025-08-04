@@ -337,7 +337,7 @@ export default function TournamentLanding() {
             <h3 className="text-2xl font-bold mb-6">Sponsors Oficiales</h3>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center">
-            <a href="www.movistar.com.ar" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.movistar.com.ar/" target="_blank" rel="noopener noreferrer">
             <Image
               src="/images/movistar-footer-logo.png"
               alt="Movistar Logo"
