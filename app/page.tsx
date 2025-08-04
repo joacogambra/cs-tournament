@@ -346,6 +346,7 @@ export default function TournamentLanding() {
               className="h-20 w-auto opacity-80 hover:opacity-100 transition-opacity"
             />
             </a>
+            <a href="https://heromotos.com.ar/urbanas/hunk-160r/" target="_blank" rel="noopener noreferrer">
             <Image
               src="/images/globant-logo.png"
               alt="Globant Logo"
@@ -353,6 +354,7 @@ export default function TournamentLanding() {
               height={80}
               className="h-16 w-auto opacity-80 hover:opacity-100 transition-opacity"
             />
+            </a>
             <a href="https://www.nubia.com/ar/products/smartphones/nubia/nubia-neo-3-5g.html" target="_blank" rel="noopener noreferrer">
             <Image
               src="/images/nubia.png"
