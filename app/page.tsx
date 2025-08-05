@@ -136,7 +136,7 @@ export default function TournamentLanding() {
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">Copa Movistar Fibra</h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
-            ¡Competí en el Torneo de 9z Globant y Movistar de CS2 y competí por cinco Nubia Neo 3 y una moto de Hero!
+            ¡Inscribite en el Torneo de 9z Globant y Movistar de CS2 y competí por cinco Nubia Neo 3 y una moto de Hero!
           </p>
           <Button
             size="lg"
@@ -159,8 +159,8 @@ export default function TournamentLanding() {
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8">Acerca del torneo</h2>
           <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-            El torneo reúne a jugadores de todo el país para competir en CS2, con clasificatorias abiertas y una final
-            presencial inolvidable. Organizado por 9z Team, Globant y Movistar Fibra.
+            El torneo reúne a jugadores amateurs de todo el país para competir en CS2, con clasificatorias abiertas y una final inolvidable. Organizado por 9z Team, Globant y Movistar Fibra.
+Podes inscribirte con o sin equipo. Si no tenés equipo, te ayudamos a conformar un equipo en Faceit o Discord.
           </p>
         </div>
       </section>
@@ -191,7 +191,7 @@ export default function TournamentLanding() {
             <div className="bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-700">
               <h3 className="text-2xl font-bold mb-4 text-yellow-400">Final Presencial</h3>
               <p className="text-gray-300">
-                La gran final el día 4 de Septiembre donde los mejores equipos se enfrentan cara a cara por los premios principales.
+                La gran final el dia 4 de Septiembre donde los mejores equipos se enfrentaran por los premios principales.
               </p>
             </div>
           </div>
@@ -274,8 +274,7 @@ export default function TournamentLanding() {
                 ¿Es online o presencial?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                Las fases clasificatorias (Open y Closed Qualy) son completamente online. Solo la gran final se juega de
-                manera presencial en Buenos Aires.
+                Las fases clasificatorias (Open y Closed Qualy) son completamente online. Solo la gran final tiene la posibilidad de jugarse de manera presencial en Buenos Aires.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem
