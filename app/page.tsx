@@ -234,9 +234,9 @@ Podes inscribirte con o sin equipo. Si no tenés equipo, te ayudamos a conformar
                   className="mx-auto rounded-lg"
                 />
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-yellow-400">Moto Hero</h3>
+              <h3 className="text-2xl font-bold mb-4 text-blue-400">Moto Hero</h3>
               <p className="text-gray-300">
-                Una HUNK 160R STEALTH 45
+                Una HUNK 160R
               </p>
             </div>
           </div>
