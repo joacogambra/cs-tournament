@@ -124,7 +124,7 @@ export default function TournamentLanding() {
       <section className="relative h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/haro-gb.png"
+            src="/images/haro-gb1.png"
             alt="Esports Tournament Gaming Setup"
             fill
             className="object-cover"
@@ -134,16 +134,16 @@ export default function TournamentLanding() {
         </div>
 
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">Copa Movistar Fibra</h1>
+          {/* <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">Copa Movistar Fibra</h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
             ¡Inscribite en el Torneo de 9z Globant y Movistar de CS2 y competí por cinco Nubia Neo 3 y una moto de Hero!
-          </p>
+          </p> */}
           <Button
             size="lg"
             variant="outline"
             className="border-white text-white hover:bg-white hover:text-gray-900 transition-colors text-lg px-8 py-4 bg-transparent"
           >
-            <a href="https://www.faceit.com/es/championship/cb96be22-8671-43f8-96bc-02a18187c8e8/Copa%2520Movistar%2520Fibra" target="_blank">Quiero jugar</a>
+            <a href="#" target="_blank">Quiero jugar</a>
           </Button>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function TournamentLanding() {
       <section id="about" className="relative h-screen flex items-center justify-center bg-gray-800 overflow-hidden">
         {/* Background Image - Left Side */}
         <div className="absolute left-0 top-0 w-1/2 h-full">
-          <Image src="/images/about-bg.jpg" alt="CS2 Tournament Player" fill className="object-cover" />
+          <Image src="/images/about-bg1.jpg" alt="CS2 Tournament Player" fill className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-800/50 to-gray-800" />
         </div>
 
@@ -169,7 +169,7 @@ Podes inscribirte con o sin equipo. Si no tenés equipo, te ayudamos a conformar
       <section id="phases" className="relative h-screen flex items-center justify-center bg-gray-900 overflow-hidden">
         {/* Background Image - Right Side */}
         <div className="absolute right-0 top-0 w-1/2 h-full">
-          <Image src="/images/phases-bg.jpg" alt="CS2 Tournament Competition" fill className="object-cover" />
+          <Image src="/images/phases-bg1.jpg" alt="CS2 Tournament Competition" fill className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-l from-transparent via-gray-900/50 to-gray-900" />
         </div>
 
@@ -202,7 +202,7 @@ Podes inscribirte con o sin equipo. Si no tenés equipo, te ayudamos a conformar
       <section id="prizes" className="relative min-h-screen flex items-center justify-center bg-gray-800 overflow-hidden">
         {/* Background Image - Left Side */}
         <div className="absolute left-0 top-0 w-1/2 h-full">
-          <Image src="/images/prizes-bg.jpg" alt="CS2 Tournament Teams" fill className="object-cover" />
+          <Image src="/images/prizes-bg1.jpg" alt="CS2 Tournament Teams" fill className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-800/50 to-gray-800" />
         </div>
 
@@ -247,7 +247,7 @@ Podes inscribirte con o sin equipo. Si no tenés equipo, te ayudamos a conformar
       <section id="faqs" className="relative h-screen flex items-center justify-center bg-gray-900 overflow-hidden">
         {/* Background Image - Right Side */}
         <div className="absolute right-0 top-0 w-1/2 h-full">
-          <Image src="/images/faqs-bg.jpg" alt="CS2 Professional Gaming" fill className="object-cover" />
+          <Image src="/images/faqs-bg1.jpg" alt="CS2 Professional Gaming" fill className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-l from-transparent via-gray-900/50 to-gray-900" />
         </div>
 
