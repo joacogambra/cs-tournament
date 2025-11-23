@@ -134,16 +134,16 @@ export default function TournamentLanding() {
         </div>
 
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          {/* <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">Copa Movistar Fibra</h1>
+          {/* <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">Copa Movistar Fibra</h1> */}
           <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
-            ¡Inscribite en el Torneo de 9z Globant y Movistar de CS2 y competí por cinco Nubia Neo 3 y una moto de Hero!
-          </p> */}
+            Un nuevo torneo de EA FC 26 te está esperando y podés ganarte increíbles premios de Nubia y Hero. Anotate ahora a esta nueva edición de la Copa Movistar Fibra. ¡A jugar!
+          </p>
           <Button
             size="lg"
             variant="outline"
             className="border-white text-white hover:bg-white hover:text-gray-900 transition-colors text-lg px-8 py-4 bg-transparent"
           >
-            <a href="#" target="_blank">Quiero jugar</a>
+            <a href="https://battlefy.com/9z-copa-movistar-fibra/copa-movistar-fibra/692132c7243333002192d747/info?infoTab=details" target="_blank">Quiero jugar</a>
           </Button>
         </div>
       </section>
@@ -159,8 +159,7 @@ export default function TournamentLanding() {
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8">Acerca del torneo</h2>
           <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-            El torneo reúne a jugadores amateurs de todo el país para competir en CS2, con clasificatorias abiertas y una final inolvidable. Organizado por 9z Team, Globant y Movistar Fibra.
-Podes inscribirte con o sin equipo. Si no tenés equipo, te ayudamos a conformar un equipo en Faceit o Discord.
+            El torneo reúne a jugadores amateurs de todo el país para competir en FC26, con clasificatorias abiertas y una final inolvidable. Organizado por 9z Team, Globant y Movistar Fibra.
           </p>
         </div>
       </section>
@@ -177,21 +176,21 @@ Podes inscribirte con o sin equipo. Si no tenés equipo, te ayudamos a conformar
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">Fases del torneo</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-700">
-              <h3 className="text-2xl font-bold mb-4 text-blue-400">Open Qualy</h3>
+              <h3 className="text-2xl font-bold mb-4 text-blue-400">Inscripciones</h3>
               <p className="text-gray-300">
-                Clasificatorias abiertas para todos los jugadores los días 23 y 24 de Agosto
+                Inscripciones abiertas desde el 24 de Noviembre 19hs. Cierre el 4 de Diciembre a las 19hs
               </p>
             </div>
             <div className="bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-700">
-              <h3 className="text-2xl font-bold mb-4 text-green-400">Closed Qualy</h3>
+              <h3 className="text-2xl font-bold mb-4 text-green-400">Clasificatorias</h3>
               <p className="text-gray-300">
-                Los mejores equipos de la fase anterior compiten por un lugar en la gran final presencial los días 30 y 31 de Agosto
+                Los equipos se enfrentaran desde las 15hs del Sabado 6 de Diciembre
               </p>
             </div>
             <div className="bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-700">
               <h3 className="text-2xl font-bold mb-4 text-yellow-400">Final Presencial</h3>
               <p className="text-gray-300">
-                La gran final el dia 4 de Septiembre donde los mejores equipos se enfrentaran por los premios principales.
+                Las semifinales, 3er y 4to puesto y LA GRAN FINAL seran el dia 11 de Diciembre en las oficinas de 9Z GLOBANT.
               </p>
             </div>
           </div>
@@ -221,7 +220,7 @@ Podes inscribirte con o sin equipo. Si no tenés equipo, te ayudamos a conformar
               </div>
               <h3 className="text-2xl font-bold mb-4 text-green-400">Nubia Neo 3</h3>
               <p className="text-gray-300">
-                5 celulares Nubia Neo 3
+                2 celulares Nubia Neo 3
               </p>
             </div>
             <div className="bg-gray-900/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-600">
@@ -236,7 +235,7 @@ Podes inscribirte con o sin equipo. Si no tenés equipo, te ayudamos a conformar
               </div>
               <h3 className="text-2xl font-bold mb-4 text-blue-400">Moto Hero</h3>
               <p className="text-gray-300">
-                Una HUNK 160R
+                Una HUNK 160R Edicion Limitada 9z
               </p>
             </div>
           </div>
@@ -262,8 +261,7 @@ Podes inscribirte con o sin equipo. Si no tenés equipo, te ayudamos a conformar
                 ¿Quiénes pueden participar?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                Pueden participar todos los jugadores NO profesionales mayores de 18 años residentes en Argentina. Se requiere tener una
-                cuenta de Faceit y CS2 instalado.
+                Pueden participar todos los jugadores NO profesionales mayores de 18 años residentes en Argentina.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem
@@ -274,10 +272,10 @@ Podes inscribirte con o sin equipo. Si no tenés equipo, te ayudamos a conformar
                 ¿Es online o presencial?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                Las fases clasificatorias (Open y Closed Qualy) son completamente online. Solo la gran final tiene la posibilidad de jugarse de manera presencial en Buenos Aires.
+                Las fases clasificatorias son completamente online. Semifinales y la final tiene la posibilidad de jugarse de manera presencial en Buenos Aires.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem
+            {/* <AccordionItem
               value="item-3"
               className="border-gray-700 bg-gray-800/90 backdrop-blur-sm rounded-lg mb-4 px-6"
             >
@@ -289,7 +287,7 @@ Podes inscribirte con o sin equipo. Si no tenés equipo, te ayudamos a conformar
                 jugadores y completar el formulario de registro con los datos de todos los integrantes.
                 Las inscripciones comienzan el 4 de Agosto 10AM hasta el 18 de Agosto.
               </AccordionContent>
-            </AccordionItem>
+            </AccordionItem> */}
             <AccordionItem
               value="item-4"
               className="border-gray-700 bg-gray-800/90 backdrop-blur-sm rounded-lg mb-4 px-6"
@@ -298,23 +296,21 @@ Podes inscribirte con o sin equipo. Si no tenés equipo, te ayudamos a conformar
                 ¿Qué necesito para jugar?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                Necesitás CS2 y Faceit instalado, una conexión estable a internet, micrófono para comunicarte con tu equipo y
-                estar disponible en los horarios de las partidas programadas.
+                El torneo es para NextGen. Necesitas inscribirte en Battlefy, completar el formulario y estar atento al Discord de 9z.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem
+            {/* <AccordionItem
               value="item-5"
               className="border-gray-700 bg-gray-800/90 backdrop-blur-sm rounded-lg mb-4 px-6"
             >
               <AccordionTrigger className="text-left text-lg font-semibold hover:text-blue-400">
-                ¿Cuántos jugadores por equipo?
+                ¿Qué modo de juego es?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                Cada equipo debe estar compuesto por exactamente 5 jugadores titulares. Se permite tener hasta 3
-                suplentes registrados por equipo.
+                El modo 
               </AccordionContent>
-            </AccordionItem>
-            <AccordionItem
+            </AccordionItem> */}
+            {/* <AccordionItem
               value="item-6"
               className="border-gray-700 bg-gray-800/90 backdrop-blur-sm rounded-lg mb-4 px-6"
             >
@@ -324,7 +320,7 @@ Podes inscribirte con o sin equipo. Si no tenés equipo, te ayudamos a conformar
               <AccordionContent className="text-gray-300 text-base">
                 Podes buscar compañeros o un team incompleto desde FACEIT o en el chat <a href="https://discord.gg/UbtP3taKbh">de Discord de 9z</a>.
               </AccordionContent>
-            </AccordionItem>
+            </AccordionItem> */}
           </Accordion>
         </div>
       </section>
