@@ -211,7 +211,7 @@ export default function TournamentLanding() {
             <div className="bg-gray-900/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-600">
               <div className="mb-6">
                 <Image
-                  src="/images/neo3.png"
+                  src="/images/neos3.png"
                   alt="Duki Concert Tickets"
                   width={200}
                   height={200}
@@ -220,13 +220,13 @@ export default function TournamentLanding() {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-green-400">Nubia Neo 3</h3>
               <p className="text-gray-300">
-                2 celulares Nubia Neo 3
+                2 celulares Nubia
               </p>
             </div>
             <div className="bg-gray-900/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-600">
               <div className="mb-6">
                 <Image
-                  src="/images/hunk.png"
+                  src="/images/moto9z.png"
                   alt="Gaming Monitor"
                   width={200}
                   height={200}
