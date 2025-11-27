@@ -65,7 +65,7 @@ export default function TournamentLanding() {
                   variant="outline"
                   className="border-white text-white hover:bg-white hover:text-gray-900 transition-colors bg-transparent"
                 >
-                  <a href="https://www.faceit.com/es/championship/cb96be22-8671-43f8-96bc-02a18187c8e8/Copa%2520Movistar%2520Fibra" target="_blank">Participar</a>
+                  <a href="https://battlefy.com/9z-copa-movistar-fibra/copa-movistar-fibra/692132c7243333002192d747/info?infoTab=details" target="_blank">Participar</a>
                 </Button>
               </div>
             </div>
@@ -136,7 +136,7 @@ export default function TournamentLanding() {
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           {/* <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">Copa Movistar Fibra</h1> */}
           <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
-            Un nuevo torneo de EA FC 26 te está esperando y podés ganarte increíbles premios de Nubia y Hero. Anotate ahora a esta nueva edición de la Copa Movistar Fibra. ¡A jugar!
+            Un nuevo torneo amateur de EA FC 26 te está esperando y podés ganarte increíbles premios de Nubia y Hero. Anotate ahora a esta nueva edición de la Copa Movistar Fibra. ¡A jugar!
           </p>
           <Button
             size="lg"
