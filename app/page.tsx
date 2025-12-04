@@ -362,7 +362,7 @@ export default function TournamentLanding() {
           </div>
           <div className="text-center mt-8 pt-8 border-t border-gray-800">
             <p className="text-gray-400">© 2025 Copa Movistar Fibra. Todos los derechos reservados.</p>
-            <a href="https://docs.google.com/document/d/1AEYCMU3Go-4GmxdOnEQupKqTLQWHZOnZZNgtNZrpAy0/edit?usp=sharing">Terminos y condiciones</a>
+            <a href="https://docs.google.com/document/d/18I9FFqBo4-lkayFQ_ux021Efp_eOAUq2/edit?usp=sharing&ouid=109650880505274217184&rtpof=true&sd=true">Terminos y condiciones</a>
           </div>
         </div>
       </footer>
