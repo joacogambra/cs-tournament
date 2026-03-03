@@ -9,9 +9,9 @@ const play = Play({
 })
 
 export const metadata: Metadata = {
-  title: "Copa Movistar Fibra",
-  description: "Copa Movistar Fibra",
-  generator: "Copa Movistar Fibra",
+  title: "Copa EAFC26 Chile - 9Z Globant",
+  description: "Copa EAFC26 Chile - 9Z Globant",
+  generator: "Copa EAFC26 Chile - 9Z Globant",
 }
 
 export default function RootLayout({

@@ -20,13 +20,14 @@ export default function TournamentLanding() {
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       {/* Sticky Navbar */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-0 backdrop-blur-sm">
+      {/* <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-900 backdrop-blur-sm border-b border-gray-0"> Este texto es para borde y bg color */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
               <Image
-                src="/images/navbar-logo.png"
+                src="/images/9z-logo.png"
                 alt="Movistar Logo"
                 width={120}
                 height={40}
@@ -124,7 +125,7 @@ export default function TournamentLanding() {
       <section className="relative h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/haro-gb1.png"
+            src="/images/fondo-NT1.jpg"
             alt="Esports Tournament Gaming Setup"
             fill
             className="object-cover"
@@ -136,7 +137,7 @@ export default function TournamentLanding() {
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           {/* <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">Copa Movistar Fibra</h1> */}
           <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
-            Un nuevo torneo amateur de EA FC 26 te está esperando y podés ganarte increíbles premios de Nubia y Hero. Anotate ahora a esta nueva edición de la Copa Movistar Fibra. ¡A jugar!
+            Un nuevo torneo de 9z Globant arriba a Chile y te está esperando. Anotate ahora a esta primera edición ¡A jugar!
           </p>
           <Button
             size="lg"
@@ -152,14 +153,14 @@ export default function TournamentLanding() {
       <section id="about" className="relative h-screen flex items-center justify-center bg-gray-800 overflow-hidden">
         {/* Background Image - Left Side */}
         <div className="absolute left-0 top-0 w-1/2 h-full">
-          <Image src="/images/about-bg1.jpg" alt="CS2 Tournament Player" fill className="object-cover" />
+          <Image src="/images/DSC09078.jpg" alt="CS2 Tournament Player" fill className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-800/50 to-gray-800" />
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8">Acerca del torneo</h2>
           <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-            El torneo reúne a jugadores amateurs de todo el país para competir en FC26, con clasificatorias abiertas y una final inolvidable. Organizado por 9z Team, Globant y Movistar Fibra.
+            El torneo reúne a jugadores de Chile en EAFC26, con clasificatorias abiertas y una final inolvidable. Organizado por 9z Globant.
           </p>
         </div>
       </section>
@@ -168,7 +169,7 @@ export default function TournamentLanding() {
       <section id="phases" className="relative h-screen flex items-center justify-center bg-gray-900 overflow-hidden">
         {/* Background Image - Right Side */}
         <div className="absolute right-0 top-0 w-1/2 h-full">
-          <Image src="/images/phases-bg1.jpg" alt="CS2 Tournament Competition" fill className="object-cover" />
+          <Image src="/images/DSC09011.jpg" alt="CS2 Tournament Competition" fill className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-l from-transparent via-gray-900/50 to-gray-900" />
         </div>
 
@@ -178,19 +179,19 @@ export default function TournamentLanding() {
             <div className="bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-700">
               <h3 className="text-2xl font-bold mb-4 text-blue-400">Inscripciones</h3>
               <p className="text-gray-300">
-                Inscripciones abiertas desde el 24 de Noviembre 19hs. Cierre el 4 de Diciembre a las 19hs
+                Inscripciones abiertas desde el 6 de Marzo 19hs. Cierre el 20 de Marzo a las 19hs
               </p>
             </div>
             <div className="bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-700">
               <h3 className="text-2xl font-bold mb-4 text-green-400">Clasificatorias</h3>
               <p className="text-gray-300">
-                Los equipos se enfrentaran desde las 15hs del Sabado 6 de Diciembre
+                Los equipos se enfrentaran desde las 14hs el Sabado 21 de Marzo
               </p>
             </div>
             <div className="bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-700">
               <h3 className="text-2xl font-bold mb-4 text-yellow-400">Final Presencial</h3>
               <p className="text-gray-300">
-                Las semifinales, 3er y 4to puesto y LA GRAN FINAL seran el dia 11 de Diciembre en las oficinas de 9Z GLOBANT.
+                Las semifinales y LA GRAN FINAL seran el dia 25 de Marzo en la Sky Tower de Santiago, Chile.
               </p>
             </div>
           </div>
@@ -201,7 +202,7 @@ export default function TournamentLanding() {
       <section id="prizes" className="relative min-h-screen flex items-center justify-center bg-gray-800 overflow-hidden">
         {/* Background Image - Left Side */}
         <div className="absolute left-0 top-0 w-1/2 h-full">
-          <Image src="/images/prizes-bg1.jpg" alt="CS2 Tournament Teams" fill className="object-cover" />
+          <Image src="/images/DSC08895.jpg" alt="CS2 Tournament Teams" fill className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-800/50 to-gray-800" />
         </div>
 
@@ -210,32 +211,32 @@ export default function TournamentLanding() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gray-900/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-600">
               <div className="mb-6">
-                <Image
+                {/* <Image
                   src="/images/neos3.png"
                   alt="Duki Concert Tickets"
                   width={200}
                   height={200}
                   className="mx-auto rounded-lg"
-                />
+                /> */}
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-green-400">Nubia Neo 3</h3>
+              <h3 className="text-2xl font-bold mb-4 text-green-400">Productos 9Z Pro</h3>
               <p className="text-gray-300">
-                2 celulares Nubia
+                Perifericos
               </p>
             </div>
             <div className="bg-gray-900/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-600">
               <div className="mb-6">
-                <Image
+                {/* <Image
                   src="/images/moto9z.png"
                   alt="Gaming Monitor"
                   width={200}
                   height={200}
                   className="mx-auto rounded-lg"
-                />
+                /> */}
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-blue-400">Moto Hero</h3>
+              <h3 className="text-2xl font-bold mb-4 text-blue-400">Merch 9z</h3>
               <p className="text-gray-300">
-                Una HUNK 160R Edicion Limitada 9z
+                Merch sorpresa de 9z
               </p>
             </div>
           </div>
@@ -246,7 +247,7 @@ export default function TournamentLanding() {
       <section id="faqs" className="relative h-screen flex items-center justify-center bg-gray-900 overflow-hidden">
         {/* Background Image - Right Side */}
         <div className="absolute right-0 top-0 w-1/2 h-full">
-          <Image src="/images/faqs-bg1.jpg" alt="CS2 Professional Gaming" fill className="object-cover" />
+          <Image src="/images/DSC08876.jpg" alt="CS2 Professional Gaming" fill className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-l from-transparent via-gray-900/50 to-gray-900" />
         </div>
 
@@ -261,7 +262,7 @@ export default function TournamentLanding() {
                 ¿Quiénes pueden participar?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                Pueden participar todos los jugadores NO profesionales mayores de 18 años residentes en Argentina.
+                Pueden participar todos los jugadores mayores de 18 años residentes en Chile.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem
@@ -272,7 +273,7 @@ export default function TournamentLanding() {
                 ¿Es online o presencial?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                Las fases clasificatorias son completamente online. Semifinales y la final tiene la posibilidad de jugarse de manera presencial en Buenos Aires.
+                Las fases clasificatorias son completamente online. Semifinales y la final se jugaran presencialmente en Santiago, Chile.
               </AccordionContent>
             </AccordionItem>
             {/* <AccordionItem
@@ -296,7 +297,7 @@ export default function TournamentLanding() {
                 ¿Qué necesito para jugar?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                El torneo es para NextGen. Necesitas inscribirte en Battlefy, completar el formulario y estar atento al Discord de 9z.
+                El torneo es para NextGen. Solamente inscribirte en Battlefy y conectarte el dia 21 de Marzo.
               </AccordionContent>
             </AccordionItem>
             {/* <AccordionItem
@@ -329,9 +330,9 @@ export default function TournamentLanding() {
       <footer className="bg-gray-950 py-12 border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold mb-6">Sponsors Oficiales</h3>
+            {/* <h3 className="text-2xl font-bold mb-6">Sponsors Oficiales</h3> */}
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center">
+          {/* <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center">
             <a href="https://www.movistar.com.ar/" target="_blank" rel="noopener noreferrer">
             <Image
               src="/images/movistar-footer-logo.png"
@@ -359,10 +360,10 @@ export default function TournamentLanding() {
               className="h-12 w-auto opacity-80 hover:opacity-100 transition-opacity col-span-2 md:col-span-1"
             />
             </a>
-          </div>
+          </div> */}
           <div className="text-center mt-8 pt-8 border-t border-gray-800">
-            <p className="text-gray-400">© 2025 Copa Movistar Fibra. Todos los derechos reservados.</p>
-            <a href="https://docs.google.com/document/d/18MvkgSLOxo5BMh9Aa21efuWjYSYKdS5i/edit?usp=sharing&ouid=109650880505274217184&rtpof=true&sd=true">Terminos y condiciones</a>
+            <p className="text-gray-400">© 2026 9z Globant. Todos los derechos reservados.</p>
+            <a href="#">Terminos y condiciones</a>
           </div>
         </div>
       </footer>
