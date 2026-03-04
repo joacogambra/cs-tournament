@@ -137,7 +137,7 @@ export default function TournamentLanding() {
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           {/* <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">Copa Movistar Fibra</h1> */}
           <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
-            Un nuevo torneo de 9z Globant arriba a Chile y te está esperando. Anotate ahora a esta primera edición ¡A jugar!
+            Un nuevo torneo de 9z Globant arriba a Chile ! y te está esperando. Anotate ahora a esta primera edición ¡A jugar!
           </p>
           <Button
             size="lg"
