@@ -66,7 +66,7 @@ export default function TournamentLanding() {
                   variant="outline"
                   className="border-white text-white hover:bg-white hover:text-gray-900 transition-colors bg-transparent"
                 >
-                  <a href="https://battlefy.com/9z-copa-movistar-fibra/copa-movistar-fibra/692132c7243333002192d747/info?infoTab=details" target="_blank">Participar</a>
+                  <a href="https://forms.gle/8Jj4LjX2dui5hbXG9" target="_blank">Participar</a>
                 </Button>
               </div>
             </div>
@@ -135,16 +135,17 @@ export default function TournamentLanding() {
         </div>
 
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          {/* <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">Copa Movistar Fibra</h1> */}
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">FC26 MASTERS CHILE</h1> 
           <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
-            Un nuevo torneo de 9z Globant arriba a Chile ! y te está esperando. Anotate ahora a esta primera edición ¡A jugar!
+            Un torneo de FC organizado por 9z Globant llega a Chile y te está esperando.
+Inscribite ahora para demostrar tu nivel y ser parte de una final presencial única… A jugar! ⚽🎮
           </p>
           <Button
             size="lg"
             variant="outline"
             className="border-white text-white hover:bg-white hover:text-gray-900 transition-colors text-lg px-8 py-4 bg-transparent"
           >
-            <a href="https://battlefy.com/9z-copa-movistar-fibra/copa-movistar-fibra/692132c7243333002192d747/info?infoTab=details" target="_blank">Quiero jugar</a>
+            <a href="https://forms.gle/8Jj4LjX2dui5hbXG9" target="_blank">Quiero jugar</a>
           </Button>
         </div>
       </section>
@@ -160,7 +161,12 @@ export default function TournamentLanding() {
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8">Acerca del torneo</h2>
           <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-            El torneo reúne a jugadores de Chile en EAFC26, con clasificatorias abiertas y una final inolvidable. Organizado por 9z Globant.
+            Torneo abierto de EA SPORTS FC 26 para jugadores amateurs con residencia en Santiago de Chile. La competencia tendrá clasificatorias online en formato eliminación directa, jugadas en modo Kick Off para garantizar igualdad de condiciones.
+<br/>
+Los mejores avanzarán a una semifinal y gran final presencial en las oficinas de Globant en Santiago de Chile, con transmisión en vivo para la comunidad.
+<br/>
+Importante: no está permitida la participación de jugadores profesionales.
+
           </p>
         </div>
       </section>
@@ -179,19 +185,19 @@ export default function TournamentLanding() {
             <div className="bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-700">
               <h3 className="text-2xl font-bold mb-4 text-blue-400">Inscripciones</h3>
               <p className="text-gray-300">
-                Inscripciones abiertas desde el 6 de Marzo 19hs. Cierre el 20 de Marzo a las 19hs
+                Inscripciones abiertas hasta el 20 de Marzo - 19hs
               </p>
             </div>
             <div className="bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-700">
               <h3 className="text-2xl font-bold mb-4 text-green-400">Clasificatorias</h3>
               <p className="text-gray-300">
-                Los equipos se enfrentaran desde las 14hs el Sabado 21 de Marzo
+                Los equipos se enfrentarán el Sábado 21 de Marzo desde las 14hs y durante todo el transcurso del día.
               </p>
             </div>
             <div className="bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-700">
               <h3 className="text-2xl font-bold mb-4 text-yellow-400">Final Presencial</h3>
               <p className="text-gray-300">
-                Las semifinales y LA GRAN FINAL seran el dia 25 de Marzo en la Sky Tower de Santiago, Chile.
+                Las semifinales y LA GRAN FINAL serán el dia 25 de Marzo en la Sky Tower de Santiago, Chile.
               </p>
             </div>
           </div>
@@ -219,9 +225,10 @@ export default function TournamentLanding() {
                   className="mx-auto rounded-lg"
                 /> */}
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-green-400">Productos 9Z Pro</h3>
+              <h3 className="text-2xl font-bold mb-4 text-green-400">TOP #1</h3>
               <p className="text-gray-300">
-                Perifericos
+                9Z FAN PACK <br/>
+                Remera + Mousepad + merch sorpresa
               </p>
             </div>
             <div className="bg-gray-900/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-600">
@@ -234,7 +241,7 @@ export default function TournamentLanding() {
                   className="mx-auto rounded-lg"
                 /> */}
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-blue-400">Merch 9z</h3>
+              <h3 className="text-2xl font-bold mb-4 text-blue-400">TOP #2</h3>
               <p className="text-gray-300">
                 Merch sorpresa de 9z
               </p>
@@ -262,7 +269,7 @@ export default function TournamentLanding() {
                 ¿Quiénes pueden participar?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                Pueden participar todos los jugadores mayores de 18 años residentes en Chile.
+                Todo jugador amateur mayor de 18 años, con residencia en Santiago de Chile. No pueden anotarse ProPlayers.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem
@@ -276,19 +283,17 @@ export default function TournamentLanding() {
                 Las fases clasificatorias son completamente online. Semifinales y la final se jugaran presencialmente en Santiago, Chile.
               </AccordionContent>
             </AccordionItem>
-            {/* <AccordionItem
+            <AccordionItem
               value="item-3"
               className="border-gray-700 bg-gray-800/90 backdrop-blur-sm rounded-lg mb-4 px-6"
             >
               <AccordionTrigger className="text-left text-lg font-semibold hover:text-blue-400">
-                ¿Cómo me inscribo?¿Cuanto tiempo hay para inscribirse?
+                ¿Qué se entiende por ProPlayers?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                La inscripción se realiza a través de FACEIT. Necesitás formar un equipo de 5
-                jugadores y completar el formulario de registro con los datos de todos los integrantes.
-                Las inscripciones comienzan el 4 de Agosto 10AM hasta el 18 de Agosto.
+                Toda persona que mantenga, al momento de la inscripción o de la realización del evento, un vínculo vigente, fuere este de naturaleza contractual, laboral, de representación o de cualquier otro tipo, con una organización, club, equipo, academia, institución o entidad dedicada total o parcialmente a la competencia, entrenamiento, desarrollo o explotación deportiva de la disciplina
               </AccordionContent>
-            </AccordionItem> */}
+            </AccordionItem> 
             <AccordionItem
               value="item-4"
               className="border-gray-700 bg-gray-800/90 backdrop-blur-sm rounded-lg mb-4 px-6"
