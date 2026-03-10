@@ -125,7 +125,7 @@ export default function TournamentLanding() {
       <section className="relative h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/fondo-NT1.jpg"
+            src="/images/DSC08895.jpg"
             alt="Esports Tournament Gaming Setup"
             fill
             className="object-cover"
