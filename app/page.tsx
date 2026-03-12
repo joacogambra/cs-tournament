@@ -160,7 +160,7 @@ Inscribite ahora para demostrar tu nivel y ser parte de una final presencial ún
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8">Acerca del torneo</h2>
-          <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
+          <p className="text-xl md:text-2xl text-gray-300 leading-relaxed mb-6">
             Torneo abierto de EA SPORTS FC 26 para jugadores amateurs con residencia en Santiago de Chile.
             <br/>
             La competencia tendrá clasificatorias online en formato eliminación directa, jugadas en modo Kick Off para garantizar igualdad de condiciones.
