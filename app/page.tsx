@@ -161,9 +161,12 @@ Inscribite ahora para demostrar tu nivel y ser parte de una final presencial ún
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8">Acerca del torneo</h2>
           <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-            Torneo abierto de EA SPORTS FC 26 para jugadores amateurs con residencia en Santiago de Chile. La competencia tendrá clasificatorias online en formato eliminación directa, jugadas en modo Kick Off para garantizar igualdad de condiciones.
+            Torneo abierto de EA SPORTS FC 26 para jugadores amateurs con residencia en Santiago de Chile.
+            <br/>
+            La competencia tendrá clasificatorias online en formato eliminación directa, jugadas en modo Kick Off para garantizar igualdad de condiciones.
 <br/>
-Los mejores avanzarán a una semifinal y gran final presencial en las oficinas de Globant en Santiago de Chile, con transmisión en vivo para la comunidad.
+Los mejores avanzarán a una semifinal y gran final presencial en las oficinas de Globant en Santiago de Chile, 
+            <br/>con transmisión en vivo para la comunidad.
 <br/>
 Importante: no está permitida la participación de jugadores profesionales.
 
@@ -191,13 +194,13 @@ Importante: no está permitida la participación de jugadores profesionales.
             <div className="bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-700">
               <h3 className="text-2xl font-bold mb-4 text-green-400">Clasificatorias</h3>
               <p className="text-gray-300">
-                Los equipos se enfrentarán el Sábado 21 de Marzo desde las 14hs y durante todo el transcurso del día.
+                Los equipos se enfrentarán el Domingo 22 de Marzo desde las 14hs y durante todo el transcurso del día.
               </p>
             </div>
             <div className="bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg text-center border border-gray-700">
               <h3 className="text-2xl font-bold mb-4 text-yellow-400">Final Presencial</h3>
               <p className="text-gray-300">
-                Las semifinales y LA GRAN FINAL serán el dia 25 de Marzo en la Sky Tower de Santiago, Chile.
+                Las semifinales y LA GRAN FINAL serán el dia 27 de Marzo en la Sky Tower de Santiago, Chile.
               </p>
             </div>
           </div>
@@ -302,7 +305,7 @@ Importante: no está permitida la participación de jugadores profesionales.
                 ¿Qué necesito para jugar?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                El torneo es para NextGen. Solamente inscribirte en Battlefy y conectarte el dia 21 de Marzo.
+                El torneo es para NextGen. Solamente inscribirte en Battlefy y conectarte el dia 22 de Marzo.
               </AccordionContent>
             </AccordionItem>
             {/* <AccordionItem
