@@ -164,7 +164,8 @@ Inscribite ahora para demostrar tu nivel y ser parte de una final presencial ún
             Torneo abierto de EA SPORTS FC 26 para jugadores amateurs con residencia en Santiago de Chile.
             <br/>
             La competencia tendrá clasificatorias online en formato eliminación directa, jugadas en modo Kick Off para garantizar igualdad de condiciones.
-<br/>
+<br/></p>
+            <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
 Los mejores avanzarán a una semifinal y gran final presencial en las oficinas de Globant en Santiago de Chile, 
             <br/>con transmisión en vivo para la comunidad.
 <br/>
