@@ -66,7 +66,7 @@ export default function TournamentLanding() {
                   variant="outline"
                   className="border-white text-white hover:bg-white hover:text-gray-900 transition-colors bg-transparent"
                 >
-                  <a href="https://forms.gle/8Jj4LjX2dui5hbXG9" target="_blank">Participar</a>
+                  <a href="https://battlefy.com/9z-globant/fc26-masters-chile-9z-globant/69aaf1d16ad372007207009b/info" target="_blank">Participar</a>
                 </Button>
               </div>
             </div>
@@ -145,7 +145,7 @@ Inscribite ahora para demostrar tu nivel y ser parte de una final presencial ún
             variant="outline"
             className="border-white text-white hover:bg-white hover:text-gray-900 transition-colors text-lg px-8 py-4 bg-transparent"
           >
-            <a href="https://forms.gle/8Jj4LjX2dui5hbXG9" target="_blank">Quiero jugar</a>
+            <a href="https://battlefy.com/9z-globant/fc26-masters-chile-9z-globant/69aaf1d16ad372007207009b/info" target="_blank">Quiero jugar</a>
           </Button>
         </div>
       </section>
@@ -284,7 +284,7 @@ Importante: no está permitida la participación de jugadores profesionales.
                 ¿Es online o presencial?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 text-base">
-                Las fases clasificatorias son completamente online. Semifinales y la final se jugaran presencialmente en Santiago, Chile.
+                Las fases clasificatorias son completamente online. Semifinales y la final se jugaran presencialmente en Santiago, Chile. En caso de clasificar a la semifinal-final, será responsabilidad del jugador trasladarse y asistir presencialmente a las oficinas de Globant en Santiago de Chile
               </AccordionContent>
             </AccordionItem>
             <AccordionItem
